@@ -1,32 +1,27 @@
-# Unit Publications
+# Wits Planetary Health Unit Publications
 
-This repository contains a website that lists all publications from our unit. The site is hosted using GitHub Pages and can be accessed at [https://yourusername.github.io/unit-publications](https://yourusername.github.io/unit-publications) (replace 'yourusername' with your actual GitHub username).
+This repository hosts the GitHub Pages site for the Wits Planetary Health Unit Publications. The site displays a comprehensive list of peer-reviewed journal articles and official publications from the unit, formatted in a style inspired by top academic journals such as The Lancet.
 
-## About
+## Overview
 
-This website provides a comprehensive list of our unit's academic publications, including:
+- **Website**: The site is built with a simple HTML/CSS structure.
+- **Styling**: Custom styling is applied using a serif font and a clean layout to enhance readability and reflect a professional academic aesthetic.
+- **Content**: Publications are organized by year and include full citations with hyperlinks to DOIs.
 
-- Publication titles
-- Authors
-- Journal information
-- DOI links
+## Setup
 
-## How to Update
+1. Clone the repository:
 
-To add new publications to the list:
+   ```bash
+   git clone https://github.com/Logic06183/unit-publications.git
+   ```
 
-1. Clone this repository
-2. Edit the `index.html` file to add your new publications in the provided format
-3. Commit and push your changes
-4. GitHub Pages will automatically update the website
+2. Open the project folder and view the website via GitHub Pages.
 
-## Local Development
+## Contributions
 
-To work on this site locally:
+Feel free to submit pull requests for improvements or additional features.
 
-1. Clone the repository
-2. Open the index.html file in your browser
+## License
 
-## Contact
-
-For questions or suggestions regarding this publication list, please contact [your contact information].
+This project is licensed under the MIT License.
