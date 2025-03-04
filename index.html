@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         .pdf-container {
-            margin: 30px 0;
+            margin: 20px 0;
             text-align: center;
-            max-width: 90%;
+            max-width: 98%;
             margin-left: auto;
             margin-right: auto;
         }
@@ -32,42 +32,56 @@
         
         .pdf-viewer {
             width: 100%;
-            height: 1000px;
+            height: 1200px;
             border: 1px solid #ddd;
-            margin: 20px 0;
+            margin: 10px 0;
         }
         
         @media (max-width: 768px) {
             .pdf-viewer {
-                height: 600px;
+                height: 700px;
             }
         }
         
         @media (min-width: 1200px) {
             .pdf-container {
-                max-width: 95%;
+                max-width: 99%;
             }
             
             .pdf-viewer {
-                height: 1200px;
+                height: 1400px;
             }
+        }
+        
+        @media (min-width: 1800px) {
+            .pdf-viewer {
+                height: 1600px;
+            }
+        }
+        
+        h1, h2, h3, p {
+            margin: 10px 0;
+        }
+        
+        header, footer {
+            padding: 10px 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Wits Planetary Health Unit Publications</h1>
+        <h1>University of the Witwatersrand Climate and Health Publications</h1>
     </header>
     
     <main>
         <section class="publications">
-            <h2>Key Publications</h2>
-            <p>The Wits Planetary Health Unit has produced numerous peer-reviewed journal articles and official publications on climate change and health.</p>
+            <h2>Comprehensive Research Bibliography (1969-2025)</h2>
+            <p>This document catalogs the University of the Witwatersrand's extensive contributions to climate and health research spanning over five decades.</p>
             
             <div class="pdf-container">
-                <p>For a comprehensive list of our publications, please download our publications document:</p>
+                <p>For a comprehensive bibliography of our publications, please download the document:</p>
                 <a href="Publications on Climate and Health at Wits.pdf" class="pdf-button" download>
-                    Download Publications on Climate and Health at Wits (PDF)
+                    Download Wits Climate and Health Research Bibliography (PDF)
                 </a>
                 
                 <h3>View Publications</h3>
@@ -77,14 +91,30 @@
                 <iframe class="pdf-viewer" src="Publications on Climate and Health at Wits.pdf"></iframe>
             </div>
             
-            <p>This document includes all peer-reviewed journal articles and other official publications authored by researchers affiliated with the Wits Planetary Health Unit, organized by year from 2019 to 2025.</p>
+            <h3>Research Categories</h3>
+            <p>The bibliography is organized into 10 thematic categories:</p>
             
-            <p>For more information about our research or to request specific publications, please contact the Wits Planetary Health Unit directly.</p>
+            <ol>
+                <li>Agriculture (13 publications)</li>
+                <li>Animal Studies (96 publications)</li>
+                <li>General Climate Change (31 publications)</li>
+                <li>Health Systems (6 publications)</li>
+                <li>Human Physiology (14 publications)</li>
+                <li>Impacts on Human Health (not MNCH) (30 publications)</li>
+                <li>Infections and Infectious Diseases (30 publications)</li>
+                <li>Maternal, Foetal, Neonatal, Infant and Child Health (39 publications)</li>
+                <li>Policy and Practice (50 publications)</li>
+                <li>Social, Environmental Determinants of Health (19 publications)</li>
+            </ol>
+            
+            <p>Each section contains numbered references with complete citation information including authors, titles, journals, publication years, and page numbers. The research spans over five decades (1969-2025) and covers diverse topics related to climate change impacts on health, from physiological responses in humans and animals to policy interventions and social determinants.</p>
+            
+            <p>For more information about this research or to request specific publications, please contact the Wits Climate and Health Research team directly.</p>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2025 Wits Planetary Health. All rights reserved.</p>
+        <p>&copy; 2025 University of the Witwatersrand. All rights reserved.</p>
     </footer>
 </body>
 </html>
